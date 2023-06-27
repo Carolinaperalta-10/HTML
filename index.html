@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title>Paginas de la princess</title>
+        <meta charset="UTF-8">
+        <link href="estilos.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <!--https://fonts.google.com/specimen/Be+Vietnam+Pro?preview.size=27
+        Secopia uno en html y uno en css a como indique-->
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <h1>Páginas de perras</h1>
+        <h3>Imágenes de la perrita</h3>
+
+        <!--imagen desde internet-->
+        <img class="img1" src="https://www.dogalize.com/wp-content/uploads/2017/06/La-sverminazione-e-la-pulizia-del-cucciolo-del-cane-2-800x400-800x400.jpg">
+        <!--imagen desde la computadora-->
+        <img class="img2" src="imagenes/20210420_181802.jpg">
+        
+        <!-- Crear enlaces externos(<p></p>) es para parafos)-->
+        <p>Si quieres ver mas imágenes de perritos, <a href="https://www.freepik.es/fotos/perritos"target="_blank"> 
+            da click aquí en este enlace</a>.</p>
+        <h3>Listas de perritos</h3>
+        <!--<p> es para parrafos, <strong es para poner en ngritas-->
+        <p>3 cosas que los perritos <strong>aman</strong></p>
+        <!--listas ordenadas-->
+        <ol> <!--ordered list-->
+            <li>pelotas</li><!--list item-->
+            <li>jugar</li>
+            <li>destrozar juguetes</li>
+        </ol>
+        <!--para poner en cursiva es la i-->
+        <p>3 cosas que los perritos <i>odian</i></p>
+        <!--lista desordenada-->
+        <ul><!--Unordered list-->
+            <li>estar quietos</li>
+            <li>que los ignoren</li>
+            <li>que los limpien</li>
+        </ul>
+        <!--Formularios-->
+        <form>
+            <p>¿Tu perro es cachorro, o es adulto?</p>
+            <label>
+            <input 
+            id="cachorro" 
+            type="radio"
+            value="cachorro" 
+            name="cachorro-adulto">Cachorro
+            </label>
+            <br>
+            <label>
+            <input 
+            id="adulto"
+            type="radio"
+            value="adulto"
+            name="cachorro-adulto" checked>Adulto
+            </label>
+            <!--form con casillas de verificacion-->
+            <p>¿Qué tipo de personalidad tiene tu perro?</p>
+            <label>
+                <input id="Enojon"
+                type="checkbox"
+                value="Enojon"
+                name="pesonalidad"
+                chekced>Enojon
+            </label>
+            <br>
+            <label>
+                <input id="Perezoso"
+                type="checkbox"
+                value="Perezoso"
+                name="pesonalidad">Perezoso
+            </label>
+            <br>
+            <label>
+                <input id="Energico"
+                type="checkbox"
+                value="Energico"
+                name="pesonalidad">Energico
+            </label>
+        </form>
+
+    </body>
+
+    <footer> 
+        <p><small>Esta página fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/"target="_blank">Tecnolochicas PRO</a></small> </p>
+    </footer>
+</html>
+<!--Esto es para comentarios-->
+       
+        <!--<blockquote>: Cita un fragmento de texto de otra fuente.
+        <cite>: Indica la referencia de una obra citada.
+        <code>: Resalta un fragmento de código.
+        <pre>: Muestra el texto con formato de preformateado.
+        <em>: Enfatiza el texto.
+        <strong>: Indica que el texto es especialmente importante o destacado.
+        <br>: Inserta un salto de línea.
+        <hr>: Crea una línea horizontal.
+        <label>: Etiqueta un elemento de formulario.
+        Etiqueta <form>: Define el inicio y el fin del formulario.
+        Etiqueta <p>: Representa un párrafo de texto. En este caso, se utiliza para mostrar el texto "¿Tu gatito es cachorro o es adulto?".
+        Etiqueta <label>: Se utiliza para asociar una etiqueta descriptiva con un elemento de formulario.
+        Etiqueta <input>: Crea un elemento de formulario. En este caso, se utiliza tanto para los botones de radio como para las casillas de verificación.
+        Atributo type="radio": Crea un botón de radio, lo que significa que solo se puede seleccionar una opción a la vez dentro del grupo de botones.
+        Atributo type="checkbox": Crea una casilla de verificación, lo que permite seleccionar múltiples opciones.
+        Atributo value: Define el valor que se enviará cuando se envíe el formulario.
+        Atributo name: Asigna un nombre al elemento de formulario, que se utiliza para agrupar elementos relacionados.
+        Atributo id: Asigna un identificador único al elemento de formulario, que se utiliza para asociar la etiqueta <label> con el elemento de formulario correspondiente.
+        Atributo checked: Marca el botón de radio o la casilla de verificación como seleccionado por defecto.
+        Etiqueta <br>: Crea un salto de línea, lo que provoca un salto visual a la siguiente línea. 
+        Es para poner en colores las palabras: <span style="color:red;"> esta palabra en rojo </span>-->

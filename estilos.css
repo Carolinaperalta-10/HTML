@@ -1,0 +1,39 @@
+body{
+    /*https://mybrandnewlogo.com/es/generador-de-paleta-de-colores*/
+    background-color:beige;
+    color:#9c5941;
+    /*https://fonts.google.com/specimen/Be+Vietnam+Pro?preview.size=27*/
+    font-family:'Be Vietnam Pro', sans-serif;
+}
+h3{
+    color:#ffd56c;
+    font-size: 25px;
+}
+h1,p{
+    color:black;
+}
+
+img {
+    /*width: 650px;
+    height: 300px;*/
+    border-style: dotted solid double ;
+    margin-left: 200px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+.img1{
+    width: 500px;
+    height: 300;
+}
+.img2{
+    width: 500px;
+    height: 300px;
+   display: grid;
+   grid-column-end: auto;
+   
+}
+a,small {
+    color:#005cab;
+}
+/* https://developer.mozilla.org/es/docs/Learn/CSS */
+
